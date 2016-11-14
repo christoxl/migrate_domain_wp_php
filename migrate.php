@@ -33,9 +33,9 @@ printf("Connected successfully\n");
 $sql_update = array();
 $sql_update[0] = "UPDATE wp_options "
             . "SET option_value = replace(option_value, ?, ?) "
-            . "WHERE option_name = 'home' OR option_name = 'siteurl'; ";
-$sql_update[1] = "UPDATE wp_posts SET guid = replace(guid, ?, ?); ";
-$sql_update[2] = "UPDATE wp_posts SET post_content = replace(post_content, ?, ?)"; 
+            . "WHERE option_name = 'home' OR option_name = 'siteurl';";
+$sql_update[1] = "UPDATE wp_posts SET guid = replace(guid, ?, ?);";
+$sql_update[2] = "UPDATE wp_posts SET post_content = replace(post_content, ?, ?);"; 
 $sql_update[3] = "UPDATE wp_postmeta SET meta_value = replace(meta_value, ?, ?);";
 
 // Prepare the updates and execute them
