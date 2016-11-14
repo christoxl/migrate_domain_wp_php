@@ -7,7 +7,7 @@
 *         or it will create a BIG security risk
 ******/
 
-// Plain text for the output in browser
+// Browser output in plain text
 header('Content-Type: text/plain');
 
 // Database Information
