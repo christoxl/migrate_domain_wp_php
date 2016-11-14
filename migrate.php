@@ -14,7 +14,7 @@ header('Content-Type: text/plain');
 $db_name = '';
 $db_user = '';
 $db_password = '';
-$db_host = 'localhost';  # Change if your database is in another host
+$db_host = 'localhost';  // Change if your database is in another host
 
 // Set your old and new domain names
 $new_domain = '';
